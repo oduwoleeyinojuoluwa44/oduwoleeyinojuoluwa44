@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=TEO%20the%201x%20DEV&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20%26%20dev%20tools%20%E2%80%A2%20Lagos%2C%20Nigeria&descAlignY=58&descSize=18" width="100%" alt="TEO the 1x DEV" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=TEO%20the%201x%20DEV&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20and%20dev%20tools%20%E2%80%A2%20Lagos%2C%20Nigeria&descAlignY=58&descSize=18" width="100%" alt="TEO the 1x DEV" />
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=640&lines=Building+dev+tools+and+backend+systems;AI-assisted%2C+human-verified;If+it+works%2C+I+probably+tested+it+twice" alt="Building dev tools and backend systems. AI-assisted, human-verified. If it works, I probably tested it twice." />
