@@ -1,0 +1,37 @@
+name: Recently active
+
+on:
+  schedule:
+    - cron: "0 7 * * *" # daily, 08:00 in Lagos
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-commits
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Refresh the Recently active section
+        run: node .github/scripts/update-recent.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+
+      # Committed as the account owner, so the daily refresh counts on the contribution graph.
+      - name: Commit and push
+        run: |
+          git config user.name "oduwoleeyinojuoluwa44"
+          git config user.email "oduwoleeyinojuoluwa44@gmail.com"
+          git add README.md
+          if git commit -m "chore: refresh recently active repositories"; then
+            git pull --rebase origin main
+            git push
+          fi

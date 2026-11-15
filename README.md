@@ -17,6 +17,20 @@
   <img src="https://skillicons.dev/icons?i=ts,js,py,nodejs,express,react,vite,tailwind,svelte,astro,postgres,redis,docker,git,vercel&perline=8" alt="TypeScript, JavaScript, Python, Node.js, Express, React, Vite, Tailwind, Svelte, Astro, PostgreSQL, Redis, Docker, Git, Vercel" />
 </p>
 
+## 🕒 Recently active
+
+<!-- RECENT:START -->
+| Repository | What it is | Language | Last push |
+|---|---|---|---|
+| [**havilah-site**](https://github.com/oduwoleeyinojuoluwa44/havilah-site) | — | TypeScript | 10 days ago |
+| [**happy-birthday-oyindamola**](https://github.com/oduwoleeyinojuoluwa44/happy-birthday-oyindamola) | — | HTML | 7 Oct 2026 |
+| [**tempo-planner**](https://github.com/oduwoleeyinojuoluwa44/tempo-planner) | A Structured-style visual day planner — neobrutalist, local-first, React + Vite + Tailwind | JavaScript | 29 Sept 2026 |
+| [**fast-man**](https://github.com/oduwoleeyinojuoluwa44/fast-man) | — | Python | 23 Jul 2026 |
+| [**fast-man-frontend**](https://github.com/oduwoleeyinojuoluwa44/fast-man-frontend) | — | TypeScript | 23 Jul 2026 |
+
+<sub>Refreshed automatically on 15 Nov 2026.</sub>
+<!-- RECENT:END -->
+
 ## 📊 Contributions in 3D
 
 <p align="center">
